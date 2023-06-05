@@ -1,4 +1,16 @@
 {
+
+  "installCommand": "npm install",
+  "builds": [
+    {
+      "src": "./app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "/"
+  }],
   "headers": [
     {
       "source": "/service-worker.js",
