@@ -6,6 +6,9 @@
     "start": "node app.js",
     "build": "node app.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "express": "^4.17.0"
   }
