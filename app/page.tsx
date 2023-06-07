@@ -8,7 +8,7 @@ import { Fira_Code, Roboto_Condensed } from "next/font/google";
 //   weight: "700",
 // });
 
-export default async function Home() {
+export default function Home() {
   return (
     <section>
       Home!
