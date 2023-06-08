@@ -18,7 +18,15 @@ const nextConfig = {
         port: '',
         pathname: '/goods/images/big_tile/**',
       }
-    ]
+    ],
+    modularizeImports: {
+      "react-bootstrap": {
+        transform: "react-bootstrap/{{member}}",
+      },
+      lodash: {
+        transform: "lodash/{{member}}",
+      },
+    }
   },
 
   // redirects() {
