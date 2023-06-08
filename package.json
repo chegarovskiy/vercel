@@ -6,22 +6,23 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
     "eslint-config-next": "^13.4.4",
     "next": "^13.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "4.9.4",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.10"
+    "ts-node": "^10.9.1",
+    "typescript": "4.9.4"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "jest-environment-jsdom": "^29.5.0",
-    "babel-jest": "^29.5.0",
     "@testing-library/dom": "^9.3.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0"
+    "@testing-library/react": "^14.0.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
   },
   "jest": {
     "testPathIgnorePatterns": [
@@ -39,5 +40,4 @@
       "node_modules/(?!@ngrx|(?!deck.gl)|ng-dynamic)"
     ]
   }
-
 }
