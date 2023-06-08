@@ -28,6 +28,12 @@ const nextConfig = {
       },
     }
   },
+  compiler: {
+   
+    removeConsole: {
+      exclude: ['error'],
+    },
+  },
 
   // redirects() {
   //   try {
